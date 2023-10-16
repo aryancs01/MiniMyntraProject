@@ -36,12 +36,16 @@ header{
     text-decoration: none;
     font-weight: 660;
     text-transform: uppercase;
-    padding: 30px 0;
+    padding: 25px 0;
+    transition: all 0.19s ease-in 0s;
 }
 
 .navbar a:hover{
-    border-bottom: 2px rgb(223, 98, 119) solid;
+    font-size: 20px;
 }
+/* .navbar a:hover{
+    border-bottom: 2px rgb(223, 98, 119) solid;
+} */
 .navbar a sup{
     color: rgb(231, 35, 35);
     font-size: 10px;
